@@ -1,0 +1,18 @@
+<library path="lib/libundistort_nodelet">
+  <class name="multicam_tools/UndistortNodelet"
+         type="multicam_tools::UndistortNodelet"
+         base_class_type="nodelet::Nodelet">
+    <description>
+       undistort nodelet
+    </description>
+  </class>
+</library>
+<library path="lib/liboverlay_point_cloud_nodelet">
+  <class name="multicam_tools/OverlayPointCloudNodelet"
+         type="multicam_tools::OverlayPointCloudNodelet"
+         base_class_type="nodelet::Nodelet">
+    <description>
+       overlays camera image with point cloud
+    </description>
+  </class>
+</library>
